@@ -1,0 +1,27 @@
+{
+  "name": "simple-ticking-clock",
+  "version": "1.2.0",
+  "description": "Simple Ticking Clock !!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xmarzaniq/Simple-ticking-clock.git"
+  },
+  "keywords": [
+    "Ticking"
+  ],
+  "author": "Marzaniq (0xmarzaniq)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xmarzaniq/Simple-ticking-clock/issues" 
+  },
+  "homepage": "https://github.com/0xmarzaniq/Simple-ticking-clock#readme",
+  "dependencies": {
+    "lodash": "^4.17.13",
+    "sprintf-js": "^1.1.1",
+    "prop-types": "^15.5.8"
+  }
+}
