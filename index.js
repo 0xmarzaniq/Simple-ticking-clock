@@ -22,7 +22,7 @@ const DEFAULT_TIME_LABELS = {
   s: 'Seconds',
 };
 
-class SimpleCountDownTimer extends React.Component {
+class SimpleTickingClock extends React.Component {
   static propTypes = {
     id: PropTypes.string,
     digitStyle: PropTypes.object,
@@ -212,7 +212,7 @@ class SimpleCountDownTimer extends React.Component {
   }
 }
 
-SimpleCountDownTimer.defaultProps = {
+SimpleTickingClock.defaultProps = {
   digitStyle: DEFAULT_DIGIT_STYLE,
   digitTxtStyle: DEFAULT_DIGIT_TXT_STYLE,
   timeLabelStyle: DEFAULT_TIME_LABEL_STYLE,
@@ -261,5 +261,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SimpleCountDownTimer;
-export { SimpleCountDownTimer };
+export default SimpleTickingClock;
+export { SimpleTickingClock };
